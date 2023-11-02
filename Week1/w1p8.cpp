@@ -1,13 +1,13 @@
 #include<stdio.h>
-int main()
+long int main()
 {
 int x,a,b,c;
 printf("Enter number in kilometre");
-scanf("%d",&x);
+scanf("%ld",&x);
 a=x*1000;
 b=a*100;
 c=b*10;
-printf("Number in metres is: %d",a);
-printf("Number in centimetres is: %d",b);
-printf("Number in millimetres is: %d",c);
+printf("Number in metres is: %ld",a);
+printf("Number in centimetres is: %ld",b);
+printf("Number in millimetres is: %ld",c);
 }
