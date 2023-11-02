@@ -1,7 +1,7 @@
 #include<stdio.h>
-long int main()
+int main()
 {
-int x,a,b,c;
+long int x,a,b,c;
 printf("Enter number in kilometre");
 scanf("%ld",&x);
 a=x*1000;
