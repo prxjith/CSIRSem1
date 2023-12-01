@@ -9,20 +9,15 @@ int main()
 	printf("Enter the character to be found: ");
     scanf(" %c", &key);
 	for(i=0;s[i]!='\0';i++)
+    if (s[i]== key)
 	{
-        if (s[i]== key)
-		{
-            x=1;
-            break;
-        }
+    x=1;
+    break;
     }
     if(x)
-	{
-        printf("%c is found at %d", key, i);
-    } else 
-	{
-        printf("%c is not in the string", key);
-    }
+	printf("%c is found at %d", key, i);
+    else 
+	printf("%c is not in the string", key);
     return 0;
 }
 
